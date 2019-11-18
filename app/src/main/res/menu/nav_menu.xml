@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trip"
+            android:icon="@drawable/ic_trip"
+            android:title="查看历史行程" />
+
+        <item
+            android:id="@+id/weather"
+            android:icon="@drawable/ic_weather"
+            android:title="天气" />
+
+        <item
+            android:id="@+id/reservation"
+            android:icon="@drawable/ic_reservation"
+            android:title="交通出行" />
+
+        <item
+            android:id="@+id/voice"
+            android:icon="@drawable/ic_voice"
+            android:title="AIUI语音助手" />
+
+    </group>
+
+</menu>
